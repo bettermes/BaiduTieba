@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="BM_HomeOneTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="361" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="361" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F279E4AF8F96969F7801D1FD21E4AFF3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TiC-U8-t20">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="TiC-U8-t20" secondAttribute="height" multiplier="1:1" id="fuG-qJ-bgH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是女神我是女神我是女神我是女神我是女神我是女神我是女神" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qc1-v4-0ZI">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我好爱你呦我好爱你呦我好爱你呦我好爱你呦我好爱你呦" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvD-AD-lmE">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYD-eK-Ozw">
+                        <color key="backgroundColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="5xm-QX-aTS"/>
+                            <constraint firstAttribute="height" constant="18" id="Jvz-jD-6D8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="女神吧">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8Z-gg-goX">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="kkc-2E-ZJD"/>
+                            <constraint firstAttribute="width" constant="55" id="z0P-dM-8ne"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="35" maxY="0.0"/>
+                        <state key="normal" title="666" image="btn_floor_reply_n.png">
+                            <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UYD-eK-Ozw" firstAttribute="leading" secondItem="QvD-AD-lmE" secondAttribute="leading" constant="-2" id="3sx-E2-QkS"/>
+                    <constraint firstItem="qc1-v4-0ZI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="52o-Jd-3Np"/>
+                    <constraint firstItem="QvD-AD-lmE" firstAttribute="leading" secondItem="qc1-v4-0ZI" secondAttribute="leading" id="6mh-hM-RBd"/>
+                    <constraint firstItem="qc1-v4-0ZI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="933-fm-Xtt"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="TiC-U8-t20" secondAttribute="trailing" constant="-8" id="9nF-Ib-35K"/>
+                    <constraint firstItem="QvD-AD-lmE" firstAttribute="top" secondItem="qc1-v4-0ZI" secondAttribute="bottom" id="HLf-r9-KnY"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="TiC-U8-t20" secondAttribute="bottom" constant="-8" id="IFt-a4-8FT"/>
+                    <constraint firstItem="h8Z-gg-goX" firstAttribute="trailing" secondItem="QvD-AD-lmE" secondAttribute="trailing" id="T4S-LN-Ide"/>
+                    <constraint firstItem="UYD-eK-Ozw" firstAttribute="top" secondItem="QvD-AD-lmE" secondAttribute="bottom" constant="14" id="TE7-UY-MeA"/>
+                    <constraint firstItem="TiC-U8-t20" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-9" id="WHc-PS-cot"/>
+                    <constraint firstItem="QvD-AD-lmE" firstAttribute="trailing" secondItem="qc1-v4-0ZI" secondAttribute="trailing" id="bXS-qy-sLt"/>
+                    <constraint firstItem="qc1-v4-0ZI" firstAttribute="trailing" secondItem="TiC-U8-t20" secondAttribute="leading" constant="-10" id="bfw-5p-72n"/>
+                    <constraint firstItem="h8Z-gg-goX" firstAttribute="top" secondItem="UYD-eK-Ozw" secondAttribute="top" id="ddo-V1-162"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="18.5" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="F279E4AF8F96969F7801D1FD21E4AFF3.jpg" width="512" height="682"/>
+        <image name="btn_floor_reply_n.png" width="36" height="36"/>
+    </resources>
+</document>

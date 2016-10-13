@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0m-54-1Dw">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAs-cJ-W0O">
+                            <color key="backgroundColor" red="1" green="0.40822580262758446" blue="0.10052843394750488" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="lZq-Z2-gyJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                            <state key="normal" title="开通">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开通超级会员尊享特权" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1j-Hx-lGo">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.15591396490000001" green="0.15591396490000001" blue="0.15591396490000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Z1j-Hx-lGo" secondAttribute="bottom" id="Kub-OY-1kz"/>
+                        <constraint firstAttribute="trailing" secondItem="BAs-cJ-W0O" secondAttribute="trailing" id="YFV-iu-P9b"/>
+                        <constraint firstItem="Z1j-Hx-lGo" firstAttribute="trailing" secondItem="BAs-cJ-W0O" secondAttribute="leading" id="aba-nr-Vnj"/>
+                        <constraint firstItem="Z1j-Hx-lGo" firstAttribute="top" secondItem="D0m-54-1Dw" secondAttribute="top" id="ctq-Jp-r0b"/>
+                        <constraint firstAttribute="bottom" secondItem="BAs-cJ-W0O" secondAttribute="bottom" id="i8t-y1-uww"/>
+                        <constraint firstItem="BAs-cJ-W0O" firstAttribute="top" secondItem="D0m-54-1Dw" secondAttribute="top" id="izG-fZ-TFu"/>
+                        <constraint firstItem="Z1j-Hx-lGo" firstAttribute="leading" secondItem="D0m-54-1Dw" secondAttribute="leading" constant="10" id="tOT-Ja-Q9j"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.90683709319526629" green="0.90245623767258387" blue="0.9112179487179487" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="D0m-54-1Dw" secondAttribute="trailing" id="J6b-4E-PGI"/>
+                <constraint firstItem="D0m-54-1Dw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TY5-Cc-b9s"/>
+                <constraint firstItem="D0m-54-1Dw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZBU-6m-0Bu"/>
+                <constraint firstAttribute="bottom" secondItem="D0m-54-1Dw" secondAttribute="bottom" constant="10" id="xrj-Yt-SJ7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-35" y="-246"/>
+        </view>
+    </objects>
+</document>

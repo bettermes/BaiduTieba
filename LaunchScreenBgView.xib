@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="567"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qidong－24（被拖移）.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iqe-I8-BNn">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="320" id="HFP-FB-jSd"/>
+                        <constraint firstAttribute="width" constant="320" id="yeo-Sy-SwG"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Iqe-I8-BNn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BAU-oi-yb7"/>
+                <constraint firstItem="Iqe-I8-BNn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="kIK-HD-7di"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="20" y="-20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qidong－24（被拖移）.png" width="640" height="640"/>
+    </resources>
+</document>

@@ -1,0 +1,18 @@
+//
+//  BetterMePrefixFile.pch
+//  Betterme
+//
+//  Created by len on 16/9/20.
+//  Copyright © 2016年 len. All rights reserved.
+//
+
+#ifndef BetterMePrefixFile_pch
+#define BetterMePrefixFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define SCREEN_WIDTH   [UIApplication sharedApplication].keyWindow.bounds.size.width
+#define SCREEN_HEIGHT   [UIApplication sharedApplication].keyWindow.bounds.size.height
+
+#endif /* BetterMePrefixFile_pch */
